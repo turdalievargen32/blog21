@@ -1,11 +1,11 @@
 # Django project blog 
 # commands
-> `django-admin startproject config` - создает проект, если поставить . то проект создается в этой же папке, если не поставить, то создаться папка config и в ней создается проект 
-> `python manage.py startapp app_name` - создает приложение 
-> `python manage.py makemigrations` - проверяет models, если есть изменения, то создает новый файл в migrations с изменниями 
-> `python manage.py migrate` - считывает все файлы миграций  и выполняет в бд (изменяет строение таблиц)
-> `python manage.py runserver` - запускает наш проект на 127.0.0.1:8000
-> `python manage.py runserver 5000` -  запускает наш проект на 127.0.0.1:5000
+* > `django-admin startproject config` - создает проект, если поставить . то проект создается в этой же папке, если не поставить, то создаться папка config и в ней создается проект 
+* > `python manage.py startapp app_name` - создает приложение 
+* > `python manage.py makemigrations` - проверяет models, если есть изменения, то создает новый файл в migrations с изменниями 
+* > `python manage.py migrate` - считывает все файлы миграций  и выполняет в бд (изменяет строение таблиц)
+* > `python manage.py runserver` - запускает наш проект на 127.0.0.1:8000
+* > `python manage.py runserver 5000` -  запускает наш проект на 127.0.0.1:5000
 
 
 
